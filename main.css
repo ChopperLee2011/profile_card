@@ -1,0 +1,118 @@
+body {
+  background-color: #323941; }
+
+.container {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 320px;
+  height: 375px;
+  margin: auto;
+  border:1px solid #000000;
+  border-radius: 8px;
+  padding-bottom: 1.5em;
+  background-color: #2F363E;
+  box-shadow:5px 15px 10px -15px #000; }
+
+header {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-color:#2F363E;
+  padding-bottom: 4em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  }
+
+.bg {
+  height:120px;
+  background-color:#E7DECD;
+  border-bottom: 14px solid #E7DECD;
+}
+
+.avatarcontainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 120px;
+  height: 140px;
+  display: block;
+  }
+
+.avatar {
+  width: 100%;
+  border: 6px solid #E7DECD;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative; }
+  .avatar img {
+    width: 100px;
+    height: 100px;
+  }
+.desc{
+  margin:0px auto;
+  text-align:center;
+  border-bottom:1px solid #000000;
+}
+.font1{
+  font-family: 'Montserrat', sans-serif;
+  color:#E6DFCF;
+  font-size:14px;
+}
+.font2{
+  font-family: 'Montserrat', sans-serif;
+  color:#535D69;
+  font-size:10px;
+}
+
+.butontest{
+  margin:5px 5px; 
+  font-family: 'Montserrat', sans-serif;
+  color:#E6DFCF;
+  font-size:14px;
+}
+.followBtn {
+  margin:0px auto;
+  width: 150px;
+  height: 30px;
+  background: #C44B30;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #000000;
+}
+#data{
+  display: inline;
+}
+.followers{
+  float: left;
+  width:50%;
+  height:62px;
+  border-bottom-left-radius: 8px;
+  background-color:#323941;;
+  border-right :1px solid #000000;
+
+}
+.following{
+  float: left;
+  width:158px;
+  height:62px;
+  border-bottom-right-radius: 8px;
+  background-color:#323941;;
+  margin-left:0px;
+}
+.leftdata{
+  height:50%;
+  margin:0px auto;
+  text-align: center;
+
+}
+.rightdata{
+  height:50%;
+  margin:0px auto;
+  text-align: center;
+}
+.number{
+  font-family: 'Montserrat', sans-serif;
+}
